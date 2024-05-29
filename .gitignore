@@ -13,3 +13,6 @@
 
 # Ignore any editor config files
 *.npps
+
+# others
+*.ignore
