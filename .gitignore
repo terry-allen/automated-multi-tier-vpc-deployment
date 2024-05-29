@@ -1,0 +1,15 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform provider files
+.terraform/
+
+# Ignore Git directories and files
+.git/
+
+# Ignore history directory
+.history/
+
+# Ignore any editor config files
+*.npps
