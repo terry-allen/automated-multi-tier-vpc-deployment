@@ -4,7 +4,7 @@ This project showcases the automated setup of a multi-tier Virtual Private Cloud
 
 ## Prerequisites
 
-Before getting started, make sure you have:
+Before getting started, the following are required:
 
 - An AWS account (with configured credentials)
 - Terraform installed on local machine
