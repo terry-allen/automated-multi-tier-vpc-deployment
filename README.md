@@ -59,3 +59,14 @@ To use this Terraform configuration, follow these steps:
    terraform destroy
    ```
 
+## Resulting Infrastructure
+
+Upon successful deployment, the following infrastructure will be created on AWS:
+
+- **Virtual Private Cloud (VPC)**: A VPC with DNS support and hostnames enabled.
+- **Internet Gateway**: An Internet Gateway attached to the VPC for internet access.
+- **Public Subnets**: Public subnets in multiple availability zones with auto-assigned public IPs.
+- **Private Subnets**: Private subnets for application and data tiers in multiple availability zones.
+- **Elastic IPs (EIPs)**: EIPs allocated for the NAT gateways.
+- **NAT Gateways**: NAT gateways to provide outbound internet access for private subnets.
+- **Route Tables**: Route tables configured for public and private subnets, with appropriate routes for internet and NAT gateways.
