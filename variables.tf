@@ -44,10 +44,3 @@ variable "private_data_subnet_availability_zone_2_cidr_block" {
   description = "The CIDR block for the private data subnet in availability zone 2."
   type        = string
 }
-
-# Bucket Prefix
-variable "s3_bucket_prefix" {
-  type        = string
-  description = "Use this variable to create a unique bucket name beginning with the specified prefix."
-  default     = "terraform-state-bucket-"
-}
